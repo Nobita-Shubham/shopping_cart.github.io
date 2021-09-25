@@ -16,7 +16,7 @@
           <div class="col-lg-12 text-center bg-light my-4">
             <h1>My Cart</h1>
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-9">
             <table class="table text-center">
               <thead>
                 <tr>
@@ -40,20 +40,32 @@
                                 <input type='number' class='text-center' value='$value[Quantity]'>
                             </td>
                             <td>
-                              <form action='' method='post'>
+                              <form action='manage.php' method='post'>
                                 <input type='submit' class='btn btn-outline-danger btn-sm' name='delete' value='Remove'>
+                                <input type='hidden' name='Item_Name' value='$value[Item_Name]'>
                               </form>
                             </td>
                         </tr>";
                   $i++;
                 }
-                echo $total;
                 ?>
               </tbody>
             </table>
           </div>
           <div class="col-lg-3">
-
+            <div class="border bg-light rounded p-4">
+              <h3>Total:</h3>
+              <h5 class="text-right"><?php echo $total ?></h5>
+              <form action="" method="post">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="" id="" value="checkedValue" checked>
+                    Display value
+                  </label>
+                </div>
+                <button class="btn btn-primary btn-block my-2">Buy Now</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>

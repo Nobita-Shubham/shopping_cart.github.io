@@ -16,7 +16,13 @@
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-success my-2 my-sm-0" type="submit"><a href="mycart.php" class="text-white" style="text-decoration:none">My Cart(0)</a></button>
+            <?php
+                $count = 0;
+                if(isset($_SESSION['cart'])){
+                    $count = count($_SESSION['cart']);
+                }
+            ?>
+            <button class="btn btn-success my-2 my-sm-0" type="submit"><a href="mycart.php" class="text-white" style="text-decoration:none">My Cart(<?php echo $count ?>)</a></button>
         </form>
     </div>
 </nav>
