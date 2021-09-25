@@ -20,7 +20,7 @@
                         <img class="card-img-top" src="images/1.jpg" alt="">
                         <div class="card-body">
                             <h4 class="card-title">Mobile 1</h4>
-                            <p class="card-text">price - 560rs</p>
+                            <p class="card-text">price - $560</p>
                             <button type="submit" name="add_to_cart" class="btn btn-info">Add To Cart</button>
                             <input type="hidden" value="mobile 1" name="Item_Name">
                             <input type="hidden" value="560" name="Item_price">
@@ -35,7 +35,7 @@
                         <img class="card-img-top" src="images/2.jpg" alt="">
                         <div class="card-body">
                             <h4 class="card-title">Mobile 1</h4>
-                            <p class="card-text">price - 450rs</p>
+                            <p class="card-text">price - $450</p>
                             <button type="submit" name="add_to_cart" class="btn btn-info">Add To Cart</button>
                             <input type="hidden" value="mobile 2" name="Item_Name">
                             <input type="hidden" value="450" name="Item_price">
@@ -50,7 +50,7 @@
                         <img class="card-img-top" src="images/3.jpg" alt="">
                         <div class="card-body">
                             <h4 class="card-title">Mobile 1</h4>
-                            <p class="card-text">price - 650rs</p>
+                            <p class="card-text">price - $650</p>
                             <button type="submit" name="add_to_cart" class="btn btn-info">Add To Cart</button>
                             <input type="hidden" value="mobile 3" name="Item_Name">
                             <input type="hidden" value="650" name="Item_price">
@@ -65,7 +65,7 @@
                         <img class="card-img-top" src="images/4.jpg" alt="">
                         <div class="card-body">
                             <h4 class="card-title">Mobile 1</h4>
-                            <p class="card-text">price - 800rs</p>
+                            <p class="card-text">price - $800</p>
                             <button type="submit" name="add_to_cart" class="btn btn-info">Add To Cart</button>
                             <input type="hidden" value="mobile 4" name="Item_Name">
                             <input type="hidden" value="800" name="Item_price">
